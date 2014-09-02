@@ -1,11 +1,71 @@
-<html><head><title>Pirate Movement of India</title></head>
+<!doctype html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<title>Indian Pirates</title>
+		<meta name="description" content="Indian Pirates">
+		<meta name="author" content="Pirate Praveen">
+    		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script>
+	            // show the given page, hide the rest
+        	    function show(elementID) {
+               	 	// try to find the requested page and alert if it's not found
+                	var ele = document.getElementById(elementID);
+	                if (!ele) {
+        	            alert("no such element");
+                	    return;
+	                }
+
+        	        // get all pages, loop through them and hide them
+                	var pages = document.getElementsByClassName('page');
+	                for(var i = 0; i < pages.length; i++) {
+        	            pages[i].style.display = 'none';
+               		 }
+
+	                // then show the requested page
+        	        ele.style.display = 'block';
+	            }	
+        </script>
+	</head>
 <body>
-<center><h2>Are you a designer? Can you help design a homepage? <a href="https://www.loomio.org/discussions/7061">Volunteer here!</a></h2>
-<ul>
-<li><a href="/constitution">Constitution</a></li>
-<li><a href="/cycling">Pirate Cycling</a></li>
-<li><a href="https://www.loomio.org/groups/992">Participate!</a></li>
-</ul>
+<div class="topHeaderSection">		
+	<div class="header"></div>			
+	<div class="container">
+        	<div class="navbar-header">
+         
+        		<img src="images/logo.png" alt="Indian Pirates" />
+        	</div>
+        	<div class="navbar-collapse collapse">
+          		<ul class="nav navbar-nav">
+            
+          		</ul>
+          		<ul class="nav navbar-nav navbar-right">
+            			<li class="active"><a href="index.html"><font size="4">Home</font></a></li>
+				<li><a href="constitution/index.html"><font size="4">Constitution</font></a></li>
+				<li><a href="#"><span onclick="show('Campaigns');"><font size="4">Campaigns</font></span></a></li>
+          		       <li><a href="https://www.loomio.org/groups/992"><font size="4">Participate</font></a></li>
+     </ul>
+        	</div><!--/.nav-collapse --><br>
+      	</div>
+	
+</div>
+	
+<br><br><br><br>
+
+<div id="Home" class="page" style="">
+	<center><h2>Pirates are freedom fighters of Digital Age.<br>
+	
+	<p><a href="https://www.loomio.org/groups/992"><font size="4"><button class="btn btn-success">Be a Pirate</button></font></a>
+			<a href="constitution/index.html"><font size="4"><button class="btn btn-primary">Our Constitution</button></font></a>
+</div>
+
+<div id="Campaigns" class="page" style="display:none">
+	<center>
+	<font size="4"><a href="cycling">Pirate Cycling</a></font><br>
+	<font size="4"><a href="http://yatra.diasporafoundation.org">Diaspora Yatra</a></font><br>
+	<font size="4"><a href="http://otr.works">OTR Works</a></font><br>
+	</center>
+</div>
 </body>
 </html>
 
