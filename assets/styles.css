@@ -36,8 +36,12 @@ body{
 }
 
 #links{
-	background-color: #2c4536;
-	padding: 30px 0 30px;
+	background-color: #1c2516;
+	padding: 50px 0 50px;
+}
+
+#whatpirates{
+	padding:50px 0 50px;
 }
 
 @media (min-width: 768px){
