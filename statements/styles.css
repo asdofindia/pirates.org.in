@@ -1,0 +1,44 @@
+body{
+	background-color: #1D2627;
+	color:#fff;
+}
+
+.navbar-brand {
+	padding:0;
+	height:70px;
+}
+.navbar-brand img{
+	height:70px;
+}
+
+#heading{
+	padding-left: 40px;
+}
+
+#statements ul {
+	list-style: none;
+}
+
+#statements ul .title{
+	display:block;
+	font-size:larger;
+	text-decoration: none;
+}
+#statements ul .link{
+	display:block;
+	text-decoration: none;
+}
+
+#statements ul li {
+	padding-bottom:50px;
+}
+
+#statement {
+	font-size: large;
+}
+
+@media (min-width: 1200px){
+	.container-fluid{
+		max-width: 960px;
+	}
+}

@@ -1,0 +1,66 @@
+
+.navbar-brand {
+	padding:0;
+	height:70px;
+}
+.navbar-brand img{
+	height:70px;
+}
+
+@media (min-width: 1200px) {
+    nav{
+        max-width: 970px;
+        margin: auto;
+    }
+}
+
+body{
+	background-color: #1D2627;
+	color:#fff;
+}
+
+#videoembed iframe{
+	width:500px;
+	height:281px;
+}
+@media (max-width: 500px){
+	#videoembed iframe{
+		width:100%;
+		height:auto;
+	}
+}
+
+@media (min-width: 768px){
+	#links{
+		display: flex;
+	}
+}
+
+#statements, #discussions {
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: #1D3637;
+}
+
+.space{
+	padding-top:50px;
+}
+
+#quotes blockquote {
+	border-left: none;
+}
+
+#joinbutton{
+	color:#fff;
+}
+
+#constitution iframe{
+	width:100%;
+	height:500px;
+}
+
+#sitefooter{
+	padding-top:30px;
+	padding-bottom:100px;
+	background-color: #234345;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "pirates.org.in",
+  "version": "0.2.0",
+  "authors": [
+    "Indian Pirates Web Team"
+  ],
+  "description": "The website of Indian pirates",
+  "keywords": [
+    "pirate",
+    "movement",
+    "free",
+    "freedom",
+    "rights"
+  ],
+  "license": "MIT",
+  "homepage": "pirates.org.in",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
