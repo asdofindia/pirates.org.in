@@ -7,6 +7,15 @@
 	height:70px;
 }
 
+#campaigndropdown{
+	background-color: #111111;
+}
+
+#campaigndropdown li a{
+	color: #fff;
+}
+
+
 @media (min-width: 1200px) {
     nav{
         max-width: 970px;
@@ -78,3 +87,4 @@ body{
 	padding-bottom:100px;
 	background-color: #234345;
 }
+
